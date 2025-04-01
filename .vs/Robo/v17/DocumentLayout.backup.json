@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\robo\\robo\\models\\right\\rightpulse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|solutionrelative:models\\right\\rightpulse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\robo\\robo\\controllers\\rightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|solutionrelative:controllers\\rightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\robo\\robo\\controllers\\robocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|solutionrelative:controllers\\robocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\robo\\robo\\controllers\\headcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|solutionrelative:controllers\\headcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\robo\\robo\\services\\roboservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|solutionrelative:services\\roboservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\robo\\robo\\controllers\\leftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|solutionrelative:controllers\\leftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\robo\\robo\\dataaccess\\robodataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|solutionrelative:dataaccess\\robodataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\robo\\robo\\services\\rightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|solutionrelative:services\\rightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\robo\\robo\\models\\right\\rightarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|solutionrelative:models\\right\\rightarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\robo\\robo\\services\\headservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|solutionrelative:services\\headservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\robo\\robo\\models\\head\\headrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|solutionrelative:models\\head\\headrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\robo\\robo\\dataaccess\\rightdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4168C04-E8A7-4304-8B4A-308023E32F7F}|Robo.csproj|solutionrelative:dataaccess\\rightdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,7 +33,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 202,
           "SelectedChildIndex": 9,
           "Children": [
             {
@@ -74,80 +74,86 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RightPulse.cs",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\Models\\Right\\RightPulse.cs",
-              "RelativeDocumentMoniker": "Models\\Right\\RightPulse.cs",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\Models\\Right\\RightPulse.cs",
-              "RelativeToolTip": "Models\\Right\\RightPulse.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "HeadController.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\Controllers\\HeadController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HeadController.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\Controllers\\HeadController.cs*",
+              "RelativeToolTip": "Controllers\\HeadController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T02:31:57.499Z",
+              "WhenOpened": "2025-04-01T23:39:19.68Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "RightArm.cs",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\Models\\Right\\RightArm.cs",
-              "RelativeDocumentMoniker": "Models\\Right\\RightArm.cs",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\Models\\Right\\RightArm.cs",
-              "RelativeToolTip": "Models\\Right\\RightArm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Title": "HeadService.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\Services\\HeadService.cs",
+              "RelativeDocumentMoniker": "Services\\HeadService.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\Services\\HeadService.cs",
+              "RelativeToolTip": "Services\\HeadService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T02:31:50.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HeadRotation.cs",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\Models\\Head\\HeadRotation.cs",
-              "RelativeDocumentMoniker": "Models\\Head\\HeadRotation.cs",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\Models\\Head\\HeadRotation.cs",
-              "RelativeToolTip": "Models\\Head\\HeadRotation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T01:34:01.855Z",
+              "WhenOpened": "2025-04-01T23:27:46.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RoboService.cs",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\Services\\RoboService.cs",
-              "RelativeDocumentMoniker": "Services\\RoboService.cs",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\Services\\RoboService.cs",
-              "RelativeToolTip": "Services\\RoboService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAYwC8AAAA6AAAAAAAAAA==",
+              "Title": "LeftController.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\Controllers\\LeftController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LeftController.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\Controllers\\LeftController.cs",
+              "RelativeToolTip": "Controllers\\LeftController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T01:20:48.535Z",
+              "WhenOpened": "2025-04-01T23:38:46.12Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 198,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RightController.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\Controllers\\RightController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RightController.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\Controllers\\RightController.cs",
+              "RelativeToolTip": "Controllers\\RightController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T23:38:33.007Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RoboDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\DataAccess\\RoboDataAccess.cs",
-              "RelativeDocumentMoniker": "DataAccess\\RoboDataAccess.cs",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\DataAccess\\RoboDataAccess.cs",
-              "RelativeToolTip": "DataAccess\\RoboDataAccess.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAUwIwAAAARAAAAAAAAAA==",
+              "Title": "RightService.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\Services\\RightService.cs",
+              "RelativeDocumentMoniker": "Services\\RightService.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\Services\\RightService.cs",
+              "RelativeToolTip": "Services\\RightService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T00:54:51.543Z",
+              "WhenOpened": "2025-04-01T23:27:23.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RoboController.cs",
-              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\Controllers\\RoboController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RoboController.cs",
-              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\Controllers\\RoboController.cs",
-              "RelativeToolTip": "Controllers\\RoboController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAkwFMAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "RightDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\DataAccess\\RightDataAccess.cs",
+              "RelativeDocumentMoniker": "DataAccess\\RightDataAccess.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\Documentos\\GitHub\\Robo\\Robo\\DataAccess\\RightDataAccess.cs",
+              "RelativeToolTip": "DataAccess\\RightDataAccess.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T01:27:58.487Z",
+              "WhenOpened": "2025-04-01T23:22:20.312Z",
               "EditorCaption": ""
             }
           ]
