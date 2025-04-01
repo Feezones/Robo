@@ -1,0 +1,98 @@
+[
+  {
+    "ContainingType": "Robo.Controllers.RoboController",
+    "Method": "UpdateHeadRotation",
+    "RelativePath": "api/Robo/HeadRotation",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "headRotation",
+        "Type": "Robo.Models.Head.HeadRotation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Robo.Controllers.RoboController",
+    "Method": "UpdateHeadTilt",
+    "RelativePath": "api/Robo/HeadTilt",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "headTilt",
+        "Type": "Robo.Models.Head.HeadTilt",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Robo.Controllers.RoboController",
+    "Method": "UpdateLeftArm",
+    "RelativePath": "api/Robo/LeftArm",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leftArm",
+        "Type": "Robo.Models.Left.LeftArm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Robo.Controllers.RoboController",
+    "Method": "UpdateLeftPulse",
+    "RelativePath": "api/Robo/LeftPulse",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leftPulse",
+        "Type": "Robo.Models.Left.LeftPulse",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Robo.Controllers.RoboController",
+    "Method": "UpdateRightArm",
+    "RelativePath": "api/Robo/RightArm",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rightArm",
+        "Type": "Robo.Models.Right.RightArm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Robo.Controllers.RoboController",
+    "Method": "UpdateRightPulse",
+    "RelativePath": "api/Robo/RightPulse",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rightPulse",
+        "Type": "Robo.Models.Right.RightPulse",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
