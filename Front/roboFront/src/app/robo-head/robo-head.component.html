@@ -1,0 +1,27 @@
+<div class="robo-container">
+  <div class="robo-head" [ngClass]="[horizontalPosition, verticalPosition]">
+    <div class="antenna"></div>
+    <div class="eyes">
+      <div class="eye"></div>
+      <div class="eye"></div>
+    </div>
+    <div class="mouth"></div>
+  </div>
+</div>
+
+<div class="controls">
+  <div>
+    <p>Rotação Horizontal:</p>
+    <button (click)="setHorizontalPosition('left-max')">-90°</button>
+    <button (click)="setHorizontalPosition('left-mid')">-45°</button>
+    <button (click)="setHorizontalPosition('center')">0°</button>
+    <button (click)="setHorizontalPosition('right-mid')">45°</button>
+    <button (click)="setHorizontalPosition('right-max')">90°</button>
+  </div>
+  <div>
+    <p>Inclinação Vertical:</p>
+    <button (click)="setVerticalPosition('up')">Para cima</button>
+    <button (click)="setVerticalPosition('neutral')">Repouso</button>
+    <button (click)="setVerticalPosition('down')">Para baixo</button>
+  </div>
+</div>
