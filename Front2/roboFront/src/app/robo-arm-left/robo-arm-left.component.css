@@ -1,0 +1,21 @@
+.robo-arm-left {
+  width: 30px;
+  height: 80px;
+  background-color: #666;
+  border-radius: 10px;
+  position: absolute;
+  left: -35px;
+  top: 5px;
+  box-shadow: inset 0 0 5px #000;
+}
+
+.robo-arm-left2 {
+  width: 30px;
+  height: 80px;
+  background-color: #666;
+  border-radius: 10px;
+  position: absolute;
+  left: -35px;
+  top: 90px;
+  box-shadow: inset 0 0 5px #000;
+}
