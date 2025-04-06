@@ -1,21 +1,23 @@
 ﻿using Robo.DataAccess;
+using Robo.Models.Arm;
+using Robo.Models.Hand;
 using Robo.Models.Left;
 
 namespace Robo.Services
 {
     public class LeftService
     {
-        private readonly LeftDataAccess _dataAccess;
+        private readonly HandDataAccess _dataAccess;
 
-        public LeftService(LeftDataAccess dataAccess)
+        public LeftService(HandDataAccess dataAccess)
         {
             _dataAccess = dataAccess;
         }
 
-        public int UpdateLeftArm(LeftArm leftArm)
+        public int UpdateRightPulse(RightPulse rightPulse)
         {
             // Aqui você pode adicionar lógica de verificação, se necessário
-            return _dataAccess.ExecuteUpdate_Left_Arm(leftArm);
+            return _dataAccess.ExecuteUpdate_Right_Pulse(rightPulse);
         }
 
         public int UpdateLeftPulse(LeftPulse leftPulse)

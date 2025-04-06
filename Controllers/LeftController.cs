@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Robo.Models.Arm;
+using Robo.Models.Hand;
 using Robo.Models.Left;
 using Robo.Services;
 
@@ -16,16 +18,16 @@ namespace Robo.Controllers
             _roboService = roboService;
         }
 
-        // PUT: api/Robo/LeftArm
-        [HttpPut("LeftArm")]
-        public IActionResult UpdateLeftArm(LeftArm leftArm)
+        // PUT: api/Robo/RightPulse
+        [HttpPut("RightPulse")]
+        public IActionResult UpdateRightPulse(RightPulse rightPulse)
         {
-            if (leftArm == null)
+            if (rightPulse == null)
             {
                 return BadRequest();
             }
 
-            var result = _roboService.UpdateLeftArm(leftArm);
+            var result = _roboService.UpdateRightPulse(rightPulse);
 
             if (result == 1)
                 return Ok();

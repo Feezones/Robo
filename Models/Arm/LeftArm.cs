@@ -1,4 +1,4 @@
-﻿namespace Robo.Models.Left
+﻿namespace Robo.Models.Arm
 {
     public class LeftArm
     {

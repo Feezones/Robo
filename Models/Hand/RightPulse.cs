@@ -1,4 +1,4 @@
-﻿namespace Robo.Models.Right
+﻿namespace Robo.Models.Hand
 {
     public class RightPulse
     {

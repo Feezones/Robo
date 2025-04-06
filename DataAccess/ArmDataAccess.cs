@@ -1,16 +1,18 @@
 ﻿using Dapper;
 using Microsoft.Data.Sqlite;
+using Robo.Models.Arm;
+using Robo.Models.Hand;
 using Robo.Models.Right;
 using SQLitePCL;
 using System.Data;
 
 namespace Robo.DataAccess
 {
-    public class RightDataAccess
+    public class ArmDataAccess
     {
         private readonly string _connectionString;
 
-        public RightDataAccess(string connectionString)
+        public ArmDataAccess(string connectionString)
         {
             _connectionString = connectionString;
             Batteries.Init(); // Inicializa o provedor SQLite
@@ -42,7 +44,7 @@ namespace Robo.DataAccess
             }
         }
 
-        public int ExecuteUpdate_Right_Pulse(RightPulse rightPulse)
+        public int ExecuteUpdate_Left_Arm(LeftArm leftArm)
         {
             try
             {
@@ -50,20 +52,19 @@ namespace Robo.DataAccess
 
                 var parameters = new
                 {
-                    RP_90 = rightPulse.RP90,
-                    RP_45 = rightPulse.RP45,
-                    RP_0 = rightPulse.RP0,
-                    RP_45_ = rightPulse.RP45_,
-                    RP_90_ = rightPulse.RP90_,
-                    RP_135 = rightPulse.RP135,
-                    RP_180 = rightPulse.RP180
+                    LA_Rest = leftArm.LARest,
+                    LA_Contracted1 = leftArm.LAContracted1,
+                    LA_Contracted2 = leftArm.LAContracted2,
+                    LA_Contracted3 = leftArm.LAContracted3
                 };
-                return connection.Execute("UPDATE Right_Pulse SET RP_90 = @RP_90, RP_45 = @RP_45, RP_0 = @RP_0, RP_45_ = @RP_45_, RP_90_ = @RP_90_, RP_135 = @RP_135, RP_180 = @RP_180", parameters);
+                return connection.Execute("UPDATE Left_Arm SET LA_Rest = @LA_Rest, LA_Contracted1 = @LA_Contracted1, LA_Contracted2 = @LA_Contracted2, LA_Contracted3 = @LA_Contracted3", parameters);
             }
             catch (Exception ex)
             {
                 throw ex;
             }
         }
+
+
     }
 }
