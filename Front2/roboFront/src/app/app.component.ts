@@ -17,7 +17,7 @@ import { RoboControlsComponent } from './robo-controls/robo-controls.component';
     RoboArmRightComponent,
     RoboHandLeftComponent,
     RoboHandRightComponent,
-    RoboControlsComponent
+    RoboControlsComponent,
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']

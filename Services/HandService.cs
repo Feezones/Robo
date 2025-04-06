@@ -5,11 +5,11 @@ using Robo.Models.Left;
 
 namespace Robo.Services
 {
-    public class LeftService
+    public class HandService
     {
         private readonly HandDataAccess _dataAccess;
 
-        public LeftService(HandDataAccess dataAccess)
+        public HandService(HandDataAccess dataAccess)
         {
             _dataAccess = dataAccess;
         }

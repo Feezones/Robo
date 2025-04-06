@@ -16,7 +16,7 @@ namespace Robo.Controllers
             _roboService = roboService;
         }
 
-        // PUT: api/Robo/HeadRotation
+        // PUT: api/Head/HeadRotation
         [HttpPut("HeadRotation")]
         public IActionResult UpdateHeadRotation(HeadRotation headRotation)
         {
@@ -33,7 +33,7 @@ namespace Robo.Controllers
             return NotFound();
         }
 
-        // PUT: api/Robo/HeadTilt
+        // PUT: api/Head/HeadTilt
         [HttpPut("HeadTilt")]
         public IActionResult UpdateHeadTilt(HeadTilt headTilt)
         {

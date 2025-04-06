@@ -8,17 +8,17 @@ namespace Robo.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class RightController : ControllerBase
+    public class ArmController : ControllerBase
     {
-        private readonly RightService _roboService;
+        private readonly ArmService _roboService;
 
         // Construtor para injeção de dependência
-        public RightController(RightService roboService)
+        public ArmController(ArmService roboService)
         {
             _roboService = roboService;
         }
 
-        // PUT: api/Robo/RightArm
+        // PUT: api/Arm/RightArm
         [HttpPut("RightArm")]
         public IActionResult UpdateRightArm(RightArm rightArm)
         {

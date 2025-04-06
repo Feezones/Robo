@@ -6,6 +6,8 @@ using Robo.DataAccess;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<HeadService>();
+builder.Services.AddScoped<HandService>();
+builder.Services.AddScoped<ArmService>();
 
 // Lê a string de conexão do appsettings.json
 var configuration = new ConfigurationBuilder()
@@ -16,6 +18,10 @@ string connectionString = configuration.GetConnectionString("DefaultConnection")
 
 // Registra a DataAccess no contêiner de dependências
 builder.Services.AddSingleton(new HeadDataAccess(connectionString));
+builder.Services.AddSingleton(new HandDataAccess(connectionString));
+builder.Services.AddSingleton(new ArmDataAccess(connectionString));
+
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

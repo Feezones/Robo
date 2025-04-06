@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Robo.Models.Arm;
 using Robo.Models.Hand;
 using Robo.Models.Left;
 using Robo.Services;
@@ -8,17 +7,17 @@ namespace Robo.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class LeftController : ControllerBase
+    public class HandController : ControllerBase
     {
-        private readonly LeftService _roboService;
+        private readonly HandService _roboService;
 
         // Construtor para injeção de dependência
-        public LeftController(LeftService roboService)
+        public HandController(HandService roboService)
         {
             _roboService = roboService;
         }
 
-        // PUT: api/Robo/RightPulse
+        // PUT: api/Hand/RightPulse
         [HttpPut("RightPulse")]
         public IActionResult UpdateRightPulse(RightPulse rightPulse)
         {
@@ -35,7 +34,7 @@ namespace Robo.Controllers
             return NotFound();
         }
 
-        // PUT: api/Robo/LeftPulse
+        // PUT: api/Hand/LeftPulse
         [HttpPut("LeftPulse")]
         public IActionResult UpdateLeftPulse(LeftPulse leftPulse)
         {

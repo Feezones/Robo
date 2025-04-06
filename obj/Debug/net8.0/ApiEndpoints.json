@@ -1,72 +1,24 @@
 [
   {
-    "ContainingType": "Robo.Controllers.RoboController",
-    "Method": "UpdateHeadRotation",
-    "RelativePath": "api/Robo/HeadRotation",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "headRotation",
-        "Type": "Robo.Models.Head.HeadRotation",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Robo.Controllers.RoboController",
-    "Method": "UpdateHeadTilt",
-    "RelativePath": "api/Robo/HeadTilt",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "headTilt",
-        "Type": "Robo.Models.Head.HeadTilt",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Robo.Controllers.RoboController",
+    "ContainingType": "Robo.Controllers.ArmController",
     "Method": "UpdateLeftArm",
-    "RelativePath": "api/Robo/LeftArm",
+    "RelativePath": "api/Arm/LeftArm",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "leftArm",
-        "Type": "Robo.Models.Left.LeftArm",
+        "Type": "Robo.Models.Arm.LeftArm",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Robo.Controllers.RoboController",
-    "Method": "UpdateLeftPulse",
-    "RelativePath": "api/Robo/LeftPulse",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "leftPulse",
-        "Type": "Robo.Models.Left.LeftPulse",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Robo.Controllers.RoboController",
+    "ContainingType": "Robo.Controllers.ArmController",
     "Method": "UpdateRightArm",
-    "RelativePath": "api/Robo/RightArm",
+    "RelativePath": "api/Arm/RightArm",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -80,16 +32,64 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Robo.Controllers.RoboController",
+    "ContainingType": "Robo.Controllers.HandController",
+    "Method": "UpdateLeftPulse",
+    "RelativePath": "api/Hand/LeftPulse",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leftPulse",
+        "Type": "Robo.Models.Left.LeftPulse",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Robo.Controllers.HandController",
     "Method": "UpdateRightPulse",
-    "RelativePath": "api/Robo/RightPulse",
+    "RelativePath": "api/Hand/RightPulse",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "rightPulse",
-        "Type": "Robo.Models.Right.RightPulse",
+        "Type": "Robo.Models.Hand.RightPulse",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Robo.Controllers.HeadController",
+    "Method": "UpdateHeadRotation",
+    "RelativePath": "api/Head/HeadRotation",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "headRotation",
+        "Type": "Robo.Models.Head.HeadRotation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Robo.Controllers.HeadController",
+    "Method": "UpdateHeadTilt",
+    "RelativePath": "api/Head/HeadTilt",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "headTilt",
+        "Type": "Robo.Models.Head.HeadTilt",
         "IsRequired": true
       }
     ],

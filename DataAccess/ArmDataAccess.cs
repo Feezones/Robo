@@ -36,7 +36,7 @@ namespace Robo.DataAccess
                     RA_Contracted2 = rightArm.RAContracted2,
                     RA_Contracted3 = rightArm.RAContracted3
                 };
-                return connection.Execute("UPDATE Right_Arm SET RA_Rest = @RA_Rest, RA_Contracted1 = @RA_Contracted1, RA_Contracted2 = @RA_Contracted2, RA_Contracted3 = @RA_Contracted3", parameters);
+                return connection.Execute("UPDATE RightArm SET RA_Rest = @RA_Rest, RA_Contracted_1 = @RA_Contracted1, RA_Contracted_2 = @RA_Contracted2, RA_Contracted_3 = @RA_Contracted3", parameters);
             }
             catch (Exception ex)
             {
@@ -57,7 +57,7 @@ namespace Robo.DataAccess
                     LA_Contracted2 = leftArm.LAContracted2,
                     LA_Contracted3 = leftArm.LAContracted3
                 };
-                return connection.Execute("UPDATE Left_Arm SET LA_Rest = @LA_Rest, LA_Contracted1 = @LA_Contracted1, LA_Contracted2 = @LA_Contracted2, LA_Contracted3 = @LA_Contracted3", parameters);
+                return connection.Execute("UPDATE LeftArm SET LA_Rest = @LA_Rest, LA_Contracted_1 = @LA_Contracted1, LA_Contracted_2 = @LA_Contracted2, LA_Contracted_3 = @LA_Contracted3", parameters);
             }
             catch (Exception ex)
             {

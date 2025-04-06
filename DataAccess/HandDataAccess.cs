@@ -15,7 +15,7 @@ namespace Robo.DataAccess
         public HandDataAccess(string connectionString)
         {
             _connectionString = connectionString;
-            Batteries.Init(); // Inicializa o provedor SQLite
+            Batteries.Init();
         }
 
         private IDbConnection CreateConnection()
@@ -39,7 +39,7 @@ namespace Robo.DataAccess
                     RP_135 = rightPulse.RP135,
                     RP_180 = rightPulse.RP180
                 };
-                return connection.Execute("UPDATE Right_Pulse SET RP_90 = @RP_90, RP_45 = @RP_45, RP_0 = @RP_0, RP_45_ = @RP_45_, RP_90_ = @RP_90_, RP_135 = @RP_135, RP_180 = @RP_180", parameters);
+                return connection.Execute("UPDATE RightPulse SET RP_90 = @RP_90, RP_45 = @RP_45, RP_0 = @RP_0, RP_45_ = @RP_45_, RP_90_ = @RP_90_, RP_135 = @RP_135, RP_180 = @RP_180", parameters);
             }
             catch (Exception ex)
             {
@@ -63,7 +63,7 @@ namespace Robo.DataAccess
                     LP_135 = leftPulse.LP135,
                     LP_180 = leftPulse.LP180
                 };
-                return connection.Execute("UPDATE Left_Pulse SET LP_90 = @LP_90, LP_45 = @LP_45, LP_0 = @LP_0, LP_45_ = @LP_45_, LP_90_ = @LP_90_, LP_135 = @LP_135, LP_180 = @LP_180", parameters);
+                return connection.Execute("UPDATE LeftPulse SET LP_90 = @LP_90, LP_45 = @LP_45, LP_0 = @LP_0, LP_45_ = @LP_45_, LP_90_ = @LP_90_, LP_135 = @LP_135, LP_180 = @LP_180", parameters);
             }
             catch (Exception ex)
             {

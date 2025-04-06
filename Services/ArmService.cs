@@ -5,11 +5,11 @@ using Robo.Models.Right;
 
 namespace Robo.Services
 {
-    public class RightService
+    public class ArmService
     {
         private readonly ArmDataAccess _dataAccess;
 
-        public RightService(ArmDataAccess dataAccess)
+        public ArmService(ArmDataAccess dataAccess)
         {
             _dataAccess = dataAccess;
         }
