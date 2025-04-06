@@ -1,18 +1,84 @@
 <div class="controls">
-    <div>
+
+  <!-- Cabeça -->
+  <div class="category">
+    <h3>Cabeça</h3>
+
+    <div class="control-group">
       <p>Rotação Horizontal:</p>
-      <button (click)="setHorizontal('left-max')">-90°</button>
-      <button (click)="setHorizontal('left-mid')">-45°</button>
-      <button (click)="setHorizontal('center')">0°</button>
-      <button (click)="setHorizontal('right-mid')">45°</button>
-      <button (click)="setHorizontal('right-max')">90°</button>
+      <div class="button-row">
+        <button (click)="setHorizontal('left-max')">-90°</button>
+        <button (click)="setHorizontal('left-mid')">-45°</button>
+        <button (click)="setHorizontal('center')">0°</button>
+        <button (click)="setHorizontal('right-mid')">45°</button>
+        <button (click)="setHorizontal('right-max')">90°</button>
+      </div>
     </div>
-  
-    <div>
+
+    <div class="control-group">
       <p>Inclinação Vertical:</p>
-      <button (click)="setVertical('up')">Para cima</button>
-      <button (click)="setVertical('neutral')">Repouso</button>
-      <button (click)="setVertical('down')">Para baixo</button>
+      <div class="button-row">
+        <button (click)="setVertical('up')">Para cima</button>
+        <button (click)="setVertical('neutral')">Repouso</button>
+        <button (click)="setVertical('down')">Para baixo</button>
+      </div>
     </div>
   </div>
-  
+
+  <!-- Braços -->
+  <div class="category">
+    <h3>Braços</h3>
+
+    <div class="control-group">
+      <p>Contração Esquerdo:</p>
+      <div class="button-row">
+        <button (click)="setArmLeft2('relaxed')">Relaxado</button>
+        <button (click)="setArmLeft2('slight')">Leve</button>
+        <button (click)="setArmLeft2('medium')">Média</button>
+        <button (click)="setArmLeft2('strong')">Forte</button>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <p>Contração Direito:</p>
+      <div class="button-row">
+        <button (click)="setArmRight2('relaxed')">Relaxado</button>
+        <button (click)="setArmRight2('slight')">Leve</button>
+        <button (click)="setArmRight2('medium')">Média</button>
+        <button (click)="setArmRight2('strong')">Forte</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mãos -->
+  <div class="category">
+    <h3>Mãos</h3>
+
+    <div class="control-group">
+      <p>Rotação Esquerda:</p>
+      <div class="button-row">
+        <button (click)="setHandLeftRotation('deg--90')">-90°</button>
+        <button (click)="setHandLeftRotation('deg--45')">-45°</button>
+        <button (click)="setHandLeftRotation('deg-0')">0°</button>
+        <button (click)="setHandLeftRotation('deg-45')">45°</button>
+        <button (click)="setHandLeftRotation('deg-90')">90°</button>
+        <button (click)="setHandLeftRotation('deg-135')">135°</button>
+        <button (click)="setHandLeftRotation('deg-180')">180°</button>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <p>Rotação Direita:</p>
+      <div class="button-row">
+        <button (click)="setHandRightRotation('deg--90')">-90°</button>
+        <button (click)="setHandRightRotation('deg--45')">-45°</button>
+        <button (click)="setHandRightRotation('deg-0')">0°</button>
+        <button (click)="setHandRightRotation('deg-45')">45°</button>
+        <button (click)="setHandRightRotation('deg-90')">90°</button>
+        <button (click)="setHandRightRotation('deg-135')">135°</button>
+        <button (click)="setHandRightRotation('deg-180')">180°</button>
+      </div>
+    </div>
+  </div>
+
+</div>

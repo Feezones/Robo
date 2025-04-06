@@ -9,6 +9,7 @@ import { CommonModule } from '@angular/common';
   templateUrl: './robo-controls.component.html',
   styleUrls: ['./robo-controls.component.css'],
 })
+
 export class RoboControlsComponent {
   constructor(private controlService: RoboControlService) {}
 
@@ -19,4 +20,22 @@ export class RoboControlsComponent {
   setVertical(pos: string) {
     this.controlService.setVertical(pos);
   }
+
+  setArmLeft2(level: string) {
+    this.controlService.setArmLeft2(level);
+  }
+
+  setArmRight2(level: string) {
+    this.controlService.setArmRight2(level);
+  }
+
+  setHandLeftRotation(rotation: string) {
+    this.controlService.setHandLeftRotation(rotation);
+  }
+
+  setHandRightRotation(rotation: string) {
+    this.controlService.setHandRightRotation(rotation);
+  }
 }
+
+

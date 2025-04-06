@@ -9,7 +9,7 @@
     box-shadow: inset 0 0 5px #000;
   }
 
-  .robo-arm-right2{
+  .robo-arm-right2 {
     width: 30px;
     height: 80px;
     background-color: #666;
@@ -18,5 +18,12 @@
     right: -35px;
     top: 90px;
     box-shadow: inset 0 0 5px #000;
+    transition: height 0.4s ease;
   }
+  
+  .robo-arm-right2.relaxed { height: 80px; }
+  .robo-arm-right2.slight  { height: 60px; }
+  .robo-arm-right2.medium  { height: 40px; }
+  .robo-arm-right2.strong  { height: 20px; }
+  
   

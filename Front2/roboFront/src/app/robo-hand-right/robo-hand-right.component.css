@@ -4,16 +4,31 @@
   background-color: #444;
   position: absolute;
   right: -37px;
-  top: 172px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 4px;
   border: 2px solid #222;
   border-radius: 4px;
+  transition: top 0.4s ease;
+  /*transition: transform 0.5s ease-in-out; animação para mao girar, so funciona se tirar a outra transition*/
 }
 
-/* Dedos apontando para baixo */
+/* Altura conforme contração do braço direito */
+.robo-hand-right.relaxed { top: 172px; }
+.robo-hand-right.slight  { top: 152px; }
+.robo-hand-right.medium  { top: 132px; }
+.robo-hand-right.strong  { top: 112px; }
+
+/* ROTAÇÃO */
+.deg--90 { transform: rotate(-90deg); }
+.deg--45 { transform: rotate(-45deg); }
+.deg-0   { transform: rotate(0deg); }
+.deg-45  { transform: rotate(45deg); }
+.deg-90  { transform: rotate(90deg); }
+.deg-135 { transform: rotate(135deg); }
+.deg-180 { transform: rotate(180deg); }
+
 .finger {
   width: 6px;
   height: 15px;
