@@ -22,4 +22,8 @@ import { RoboControlsComponent } from './robo-controls/robo-controls.component';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {}
+export class AppComponent {
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
+}
